@@ -6,9 +6,9 @@
 
 @font-face {
     font-family: 'bobsgame';
-    src: url('/assets/fonts/bobsgame/bobsgame.eot#iefix') format('embedded-opentype'), 
-         url('/assets/fonts/bobsgame/bobsgame.eot') format('embedded-opentype'), 
-         url('/assets/fonts/bobsgame/bobsgame.woff') format('woff'), 
+    src: url('/assets/fonts/bobsgame/bobsgame.eot#iefix') format('embedded-opentype'),
+         url('/assets/fonts/bobsgame/bobsgame.eot') format('embedded-opentype'),
+         url('/assets/fonts/bobsgame/bobsgame.woff') format('woff'),
          url('/assets/fonts/bobsgame/bobsgame.ttf') format('truetype');
 }
     
@@ -30,168 +30,135 @@ body {
     /*text-shadow:#aaa 0px 0px 1px;*/
 }
 
-/*====================================================
-TEXT STYLES
-====================================================*/
+/* TEXT STYLES */
 
-.bg
-{
+.bg {
     color:#0f0;
     text-shadow:#0f0 0px 0px 8px,#0f0 0px 0px 8px;
 }
 
-.bbg
-{
+.bbg {
     color:#0f0;
     text-shadow:#0f0 0px 0px 1px,#000 0px 0px 3px,#000 0px 0px 2px;
-
 }
 
-.yuu
-{
+.yuu {
     color:#8500ff;
     text-shadow:#8500ff 0px 0px 8px,#8500ff 0px 0px 8px,#8500ff 0px 0px 4px;
 }
 
-.byuu
-{
+.byuu {
     color:#8500ff;
     text-shadow:#000 0px 0px 4px,#8500ff 0px 0px 1px,#8500ff 0px 0px 2px;
-
-
 }
 
-.star 
-{
+.star {
     font-size: 14px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
     color:#bbb; text-shadow:0px 0px 1px #ddd;
 }
 
-.font_11 
-{
+.font_11 {
     font-size: 11px;
     text-align: center;
 }
 
-.font_green_36 
-{
-
+.font_green_36  {
     font-size: 36px;
     color: #0F0;
 }
 
-.font_purple_36 
-{
-
+.font_purple_36 {
     font-size: 36px;
     color: #309;
 }
 
-.font_gray_6 
-{
+.font_gray_6 {
     color: #333;
     font-size: 7px;
     font-family: "Lucida Console", Monaco, monospace;
 }
 
-.font_gray_9 
-{
+.font_gray_9 {
     color: #555;
     font-size: 9px;
-
 }
 
-.font_gray_10 
-{
+.font_gray_10 {
     color: #777;
     font-size: 11px;
-
 }
 
-.font_16 
-{
+.font_16 {
     font-size: 16px;
 }
 
-.font_9 
-{
-
+.font_9 {
     font-size: 9px;
 }
 
-.font_purple_16 
-{
+.font_purple_16 {
     font-size: 16px;
     color: #309;
 }
 
-.font_72 
-{
+.font_72 {
     font-size: 72px;
 }
 
-.font_red_36 
-{
+.font_red_36 {
     color: #F00;
     font-size: 36px;
 }
 
-.font_green_16 
-{
+.font_green_16 {
     color: #0F0;
     font-size: 16px;
 }
-.font_green_11 
-{    
+
+.font_green_11 {
     color: #0F0;
     font-size: 11px;
 }
-.font_purple_11 
-{    
+
+.font_purple_11 {
     color: #309;
     font-size: 11px;
 }
-.font_white_11 
-{    
+
+.font_white_11 {
     color: #FFF;
     font-size: 11px;
 }
-.font_white_36 
-{
+
+.font_white_36 {
     font-size: 36px;
     font-weight: bold;
 }
 
-.size_9_lightgray 
-{
+.size_9_lightgray {
     color: #CCC;
     font-size: 9px;
 }
 
 
-/*====================================================
-LINKS
-====================================================*/
+/* LINKS */
 
-a:link 
-{
+a:link {
     color: #8500ff;
-    text-shadow:#309 0px 0px 1px;
+    text-shadow: #309 0px 0px 1px;
 }
 
-a:visited 
-{
+a:visited {
     color: #6030B0;
-    text-shadow:#000 1px 1px 2px;
+    text-shadow: #000 1px 1px 2px;
 }
 
-a:hover 
-{
+a:hover {
     color: #8500ff;
     text-decoration: underline;
-    text-shadow:#00ff00 0px 0px 5px;
+    text-shadow: #00ff00 0px 0px 5px;
 }
 
 
@@ -395,15 +362,14 @@ body #smallbutton-home,
 }
 
 #button-nd {
-    background-image:   url('/assets/img/buttons/nD.png');
+    background-image: url('/assets/img/buttons/nD.png');
 }
 
 .payWithAmazonButton {
-    width:310px;
-    height:66px;
-    display:inline-block;
-    background:top left no-repeat transparent url('/assets/img/buttons/payWithAmazon.png');/* fix IE, doesnt know background-image */
-    
+    width: 310px;
+    height: 66px;
+    display: inline-block;
+    background: top left no-repeat transparent url('/assets/img/buttons/payWithAmazon.png'); /* fix IE, doesnt know background-image */
     
     padding: 0px;
     border-radius: 0px;
@@ -544,8 +510,7 @@ textarea
     background: -moz-linear-gradient(top,  #999,  #fff); /* for firefox 3.6+ */ 
 }
 
-.buttonGray
-{
+.buttonGray {
     padding:8px;
     
     border-radius:8px; 
@@ -560,19 +525,14 @@ textarea
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000'); /* for IE */
     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#000)); /* for webkit browsers */
     background: -moz-linear-gradient(top,  #fff,  #000); /* for firefox 3.6+ */ 
-
 }
 
-
-
-.faq_box
-{
+.faq_box {
     background:#eee;
     color:#000;
     text-align:left;
     text-shadow:#777 1px 0px 1px;
     padding:8px;
-
 }
 
 .faq_questions_title
@@ -680,23 +640,22 @@ textarea
     color: #000;
     text-shadow: #999 1px 1px 1px;
 
-    background:#fff;
+    background: #fff;
 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee'); /* for IE */
     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)); /* for webkit browsers */
     background: -moz-linear-gradient(top,  #fff,  #eee); /* for firefox 3.6+ */ 
 }
 
-
 .story {
-    width:100%;
+    width: 100%;
 
-    background:#eee;
-    text-align:left;
-    padding:16px;
+    background: #eee;
+    text-align: left;
+    padding: 16px;
 
-    border-radius:8px; 
-    border:3px solid; 
+    border-radius: 8px; 
+    border: 3px solid; 
     border-color: #009900 #00CC00 #CC00FF #9900FF; 
 }
 
@@ -715,14 +674,14 @@ pre {
 }
 
 .image-row {
-  *zoom: 1;
-  margin-bottom: 20px;
+    *zoom: 1;
+    margin-bottom: 20px;
 }
 
 .image-row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .lb-caption, .lb-number {
